@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="address" class="Address">
+        <property name="city" value="北京市"/>
+        <property name="street" value="霍营街道"/>
+    </bean>
+
+
+    <bean id="student" class="Student">
+        <!--普通数据注入-->
+        <property name="name" value="张三"/>
+        <!--引用对象注入-->
+        <property name="address" ref="address"/>
+        <!--集合注入-->
+        <property name="books">
+            <array>
+                <value>红楼梦</value>
+                <value>西游记</value>
+                <value>水浒传</value>
+                <value>三国演义</value>
+            </array>
+        </property>
+
+        <!--map-->
+        <property name="cards">
+            <map>
+                <entry key="银行卡" value="123456789"></entry>
+                <entry key="身份证" value="1234567890"></entry>
+            </map>
+        </property>
+
+        <!--list-->
+        <property name="hobbys">
+            <list>
+                <value>篮球</value>
+                <value>足球</value>
+                <value>乒乓球</value>
+                <value>羽毛球</value>
+            </list>
+        </property>
+
+        <!--null-->
+        <property name="wife">
+            <null></null>
+        </property>
+
+        <!--set-->
+        <property name="loveColor">
+            <set>
+                <value>red</value>
+                <value>blue</value>
+                <value>black</value>
+            </set>
+        </property>
+
+        <!--props-->
+        <property name="properties">
+            <props>
+                <prop key="学号">20190511</prop>
+            </props>
+        </property>
+    </bean>
+
+</beans>
