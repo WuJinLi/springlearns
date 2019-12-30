@@ -1,5 +1,9 @@
 import java.util.*;
 
+
+/**
+ * 创建Student实体类  完成实体类中给中类型属性的依赖注入操作，，详情可以在配置xml文件中去查看不同类型的依赖注入
+ */
 public class Student {
 
     private String name;
