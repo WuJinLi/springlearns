@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring_autowired/spring_autowired.iml" filepath="$PROJECT_DIR$/spring_autowired/spring_autowired.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_di/spring_di.iml" filepath="$PROJECT_DIR$/spring_di/spring_di.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_ioc/spring_ioc.iml" filepath="$PROJECT_DIR$/spring_ioc/spring_ioc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_learn.iml" filepath="$PROJECT_DIR$/spring_learn.iml" />
+    </modules>
+  </component>
+</project>
