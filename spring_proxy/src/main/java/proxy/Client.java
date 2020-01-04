@@ -1,5 +1,7 @@
 package proxy;
 
+
+//客户端  也就是租房的人
 public class Client {
     public static void main(String[] args) {
         //真实对象
