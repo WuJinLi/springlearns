@@ -9,15 +9,15 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>spring_di</artifactId>
+    <artifactId>spring_config</artifactId>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>RELEASE</version>
+            <version>4.13</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
-
 
 </project>

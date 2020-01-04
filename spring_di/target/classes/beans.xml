@@ -4,7 +4,6 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-
     <bean id="address" class="Address">
         <property name="city" value="北京市"/>
         <property name="street" value="霍营街道"/>
@@ -12,8 +11,11 @@
 
 
     <bean id="student" class="Student">
+        <!--普通数据注入-->
         <property name="name" value="张三"/>
+        <!--引用对象注入-->
         <property name="address" ref="address"/>
+        <!--集合注入-->
         <property name="books">
             <array>
                 <value>红楼梦</value>
@@ -23,6 +25,7 @@
             </array>
         </property>
 
+        <!--map-->
         <property name="cards">
             <map>
                 <entry key="银行卡" value="123456789"></entry>
@@ -30,6 +33,7 @@
             </map>
         </property>
 
+        <!--list-->
         <property name="hobbys">
             <list>
                 <value>篮球</value>
@@ -39,10 +43,12 @@
             </list>
         </property>
 
+        <!--null-->
         <property name="wife">
             <null></null>
         </property>
 
+        <!--set-->
         <property name="loveColor">
             <set>
                 <value>red</value>
@@ -51,6 +57,7 @@
             </set>
         </property>
 
+        <!--props-->
         <property name="properties">
             <props>
                 <prop key="学号">20190511</prop>

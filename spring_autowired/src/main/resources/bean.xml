@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd">
+
+
+    <!--<context:annotation-config/>-->
+    <bean id="dog" class="Dog"/>
+    <bean id="cat" class="Cat"/>
+
+    <!--<bean id="person" class="Person">-->
+    <!--<property name="name" value="Rose"></property>-->
+    <!--<property name="cat" ref="cat"></property>-->
+    <!--<property name="dog" ref="dog"></property>-->
+    <!--</bean>-->
+
+
+    <!--autowire="byName" 使用byName配置所以bean的id是唯一的。并且bean需要和自动注入的属性的set方法的值一致-->
+    <bean id="person" class="Person" autowire="byName"></bean>
+
+
+    <!--autowire="byType" 使用byType保证所有的bean的class是唯一的，并且这个bean需要和自定租入的属性的类型一致-->
+</beans>

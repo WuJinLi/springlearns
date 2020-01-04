@@ -11,6 +11,10 @@
     <modules>
         <module>spring_di</module>
         <module>spring_ioc</module>
+        <module>spring_autowired</module>
+        <module>spring_config</module>
+        <module>proxy</module>
+        <module>spring_proxy</module>
     </modules>
 
 
@@ -19,6 +23,12 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
             <version>5.1.10.RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>3.8.2</version>
         </dependency>
     </dependencies>
 
