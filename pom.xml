@@ -15,6 +15,7 @@
         <module>spring_config</module>
         <module>proxy</module>
         <module>spring_proxy</module>
+        <module>spring_aop</module>
     </modules>
 
 
