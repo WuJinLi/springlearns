@@ -25,6 +25,7 @@
             ret-type-pattern:可以为*表示任何返回值,全路径的类名等.
             name-pattern:指定方法名,*代表所以,set*,代表以set开头的所有方法.
             parameters pattern:指定方法参数(声明的类型),(..)代表所有参数,(*)代表一个参数,(*,String)代表第一个参数为任何值,第二个为String类型.
+            具体参考项目execution.png
         -->
         <aop:pointcut id="pointcut" expression="execution(* aop.IUserService.*(..))"/>
         <!--执行环绕-->
