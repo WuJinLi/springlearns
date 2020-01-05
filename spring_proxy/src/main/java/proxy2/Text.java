@@ -1,9 +1,11 @@
+package proxy2;
+
 import proxy2.IUserService;
 import proxy2.ProxyInh;
 import proxy2.UserServiceImpl;
 
 /**
- * 动态代理实现
+ * 动态代理实现,代理的是实现的接口
  */
 public class Text {
 
