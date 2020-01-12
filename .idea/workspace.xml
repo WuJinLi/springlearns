@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc240402-8ac0-4698-b252-8a21535a8f84" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/spring_aop/note.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_aop/src/main/java/custom/Custom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_aop/src/main/java/aop/LogAfter.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_aop/src/main/java/aop/LogAfter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_aop/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_aop/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_aop/target/classes/aop/LogAfter.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_aop/target/classes/aop/LogAfter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_aop/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_aop/target/classes/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,19 +68,19 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/spring_ioc/src/main/java" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring_aop/src/main/resources" />
+      <recent name="$PROJECT_DIR$/spring_proxy/src/main/resources" />
+      <recent name="$PROJECT_DIR$/spring_ioc/src/main/resources" />
+      <recent name="$PROJECT_DIR$/spring_ioc/src/main" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="config" />
       <recent name="" />
       <recent name="dao" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/spring_aop/src/main/resources" />
-      <recent name="$PROJECT_DIR$/spring_proxy/src/main/resources" />
-      <recent name="$PROJECT_DIR$/spring_ioc/src/main/resources" />
-      <recent name="$PROJECT_DIR$/spring_ioc/src/main" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring_ioc/src/main/java" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.AopTest.aopByXml">
@@ -176,20 +180,9 @@
       <workItem from="1577756876196" duration="4855000" />
       <workItem from="1577975903306" duration="1084000" />
       <workItem from="1578114977298" duration="7235000" />
-      <workItem from="1578836262336" duration="1337000" />
+      <workItem from="1578836262336" duration="3265000" />
     </task>
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="AopTest_aopByXml - 2020.01.05 at 16h 47m 04s.xml">
-      <configuration name="AopTest.aopByXml" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AopTest_aopByXml - 2020.01.05 at 16h 48m 10s.xml">
-      <configuration name="AopTest.aopByXml" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AopTest_aopByXml - 2020.01.05 at 16h 58m 07s.xml">
-      <configuration name="AopTest.aopByXml" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -220,22 +213,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="408" y="186" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1578114999049" />
-    <state width="1398" height="303" key="GridCell.Tab.0.bottom" timestamp="1578124388515">
+    <state width="1398" height="354" key="GridCell.Tab.0.bottom" timestamp="1578839661344">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578124388515" />
-    <state width="1398" height="303" key="GridCell.Tab.0.center" timestamp="1578124388512">
+    <state width="1398" height="354" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578839661344" />
+    <state width="1398" height="354" key="GridCell.Tab.0.center" timestamp="1578839661343">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578124388512" />
-    <state width="1398" height="303" key="GridCell.Tab.0.left" timestamp="1578124388510">
+    <state width="1398" height="354" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578839661343" />
+    <state width="1398" height="354" key="GridCell.Tab.0.left" timestamp="1578839661342">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578124388510" />
-    <state width="1398" height="303" key="GridCell.Tab.0.right" timestamp="1578124388514">
+    <state width="1398" height="354" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578839661342" />
+    <state width="1398" height="354" key="GridCell.Tab.0.right" timestamp="1578839661344">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578124388514" />
+    <state width="1398" height="354" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578839661344" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1578124388520">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -252,10 +245,18 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1578124388518" />
+    <state x="491" y="250" key="git4idea.merge.GitMergeDialog" timestamp="1578837848286">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="491" y="250" key="git4idea.merge.GitMergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1578837848286" />
     <state x="97" y="155" key="new project wizard" timestamp="1578123403399">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="97" y="155" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1578123403399" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1578838607918">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1578838607918" />
     <state x="395" y="145" key="spring file set editor" timestamp="1578118088059">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
